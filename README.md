@@ -7,6 +7,8 @@ Install Metasploit easily on Termux
     git clone https://github.com/Deadpool2000/msf-termux
 
     cd msf-termux
+    
+    chmod +x install.sh
 
     ./install.sh
 
