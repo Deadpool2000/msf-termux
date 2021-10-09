@@ -23,7 +23,7 @@ echo
 wget -O msf.tar.gz https://github.com/rapid7/metasploit-framework/archive/$ver.tar.gz
 mv msf.tar.gz $path
 tar -xvf $path/msf.tar.gz
-mv $path/metasploit-framework-$ver $path/metasploit-framework 
+mv metasploit-framework-$ver $path/metasploit-framework 
 rm $path/msf.tar.gz
 echo
 echo "Installing gems........."
