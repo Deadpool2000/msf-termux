@@ -32,7 +32,7 @@ gem install --no-document --verbose rubygems-update
 update_rubygems
 gem install bundler && bundle config build.nokogiri --use-system-libraries
 cd $path/metasploit-framework && bundle install
-cp assets/msfconsole $PREFIX/bin/ && cp assets/msfvenom $PREFIX/bin/
+cp msfconsole $PREFIX/bin/ && cp msfvenom $PREFIX/bin/
 
 echo
 echo "Now just use commands 'msfconsole' or 'msfvenom' to run metasploit."
