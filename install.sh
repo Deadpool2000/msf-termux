@@ -1,6 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-
 # msf-termux
 
 # Author - D3adpool2K
