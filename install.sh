@@ -10,7 +10,7 @@
 echo ">>>>>    Script by Deadpool2000     <<<<<\n"
 ver=6.1.9
 path="/data/data/com.termux/files/home"
-rm $PREFIX/bin/msfconsole && rm $PREFIX/bin/msfvenom > /dev/null
+rm $PREFIX/bin/msfconsole > /dev/null && rm $PREFIX/bin/msfvenom > /dev/null
 rm -rf $HOME/metasploit-framework > /dev/null
 echo
 echo "Installing required packages........"
