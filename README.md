@@ -9,6 +9,10 @@ Install Metasploit easily on Termux
     cd msf-termux
     
     chmod +x install.sh
+    
+    chmod +x msfconsole
+    
+    chmod +x msfvenom
 
     ./install.sh
 
