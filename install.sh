@@ -9,8 +9,8 @@
 
 echo ">>>>>    Script by Deadpool2000     <<<<<\n"
 ver=6.1.9
-path="/data/data/com.termux/files/home/"
-rm $PREFIX/bin/msfconsole && rm $PREFIX/bin/msfvenom > /dev/null
+path="/data/data/com.termux/files/home"
+rm $PREFIX/bin/msfconsole > /dev/null && rm $PREFIX/bin/msfvenom > /dev/null
 rm -rf $HOME/metasploit-framework > /dev/null
 echo
 echo "Installing required packages........"
@@ -23,7 +23,7 @@ echo
 wget -O msf.tar.gz https://github.com/rapid7/metasploit-framework/archive/$ver.tar.gz
 mv msf.tar.gz $path
 tar -xvf $path/msf.tar.gz
-mv $path/metasploit-framework-$ver $path/metasploit-framework 
+mv metasploit-framework-$ver $path/metasploit-framework 
 rm $path/msf.tar.gz
 echo
 echo "Installing gems........."
