@@ -13,7 +13,7 @@ Install Metasploit easily on Termux
     ./install.sh
 
 
-## If you got any type of error, please reinstall it.
+## If you have any issue regarding this tool, [Report Here](https://github.com/Deadpool2000/msf-termux/issues)
 
 
 
