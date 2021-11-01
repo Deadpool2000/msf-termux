@@ -8,7 +8,7 @@
 # github - https://github.com/Deadpool2000
 
 echo ">>>>>    Script by Deadpool2000     <<<<<\n"
-ver=6.1.9
+ver=6.1.12
 path="/data/data/com.termux/files/home/"
 rm $PREFIX/bin/msfconsole && rm $PREFIX/bin/msfvenom > /dev/null
 rm -rf $HOME/metasploit-framework > /dev/null
